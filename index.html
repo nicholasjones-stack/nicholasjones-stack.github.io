@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Me</title>
+    <title>Nicholas Jones’s Introductions Website</title>
+
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -38,11 +39,28 @@
 
         ul {
             margin-left: 20px;
+            list-style-type: square;
         }
 
         .highlight {
             font-weight: bold;
             color: #2c3e50;
+        }
+
+        .profile-image {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+        }
+
+        .thumbnail-image {
+            display: block;
+            margin-top: 10px;
+            max-width: 300px;
+            width: 100%;
+            height: auto;
         }
 
         footer {
@@ -53,46 +71,74 @@
         }
     </style>
 </head>
+
 <body>
 
     <div class="container">
-        <h1>About Me</h1>
 
-        <h2>Basic Information</h2>
-        <p><span class="highlight">Full Name:</span> Nicholas Jones</p>
-        <p><span class="highlight">Preferred Name:</span> Nicholas</p>
+        <!-- Centered Image Requirement -->
+        <img src="images/me-800-by-800.jpg"
+             alt="Head and shoulders photo of Nicholas Jones"
+             class="profile-image">
 
-        <h2>Professional Background</h2>
-        <p><span class="highlight">Current Job Title:</span> Lifeguard at Pelican Harbor</p>
+        <!-- Heading Requirement -->
+        <h1>Nicholas Jones’s Introductions Website</h1>
+
+        <!-- Email + Discord Requirement -->
         <p>
-            <span class="highlight">Job Responsibilities: </span><br>
-            Ensuring
+            <a href="mailto:nicholas.jones@lewisu.edu">
+                nicholas.jones@lewisu.edu
+            </a>
+        </p>
+        <p>Discord: NicholasJ#1234</p>
+
+        <h2>Introduction</h2>
+        <p>
+            My name is Nicholas Jones. I come from a supportive family that has
+            always encouraged creativity and learning. I am currently pursuing
+            a degree in Computer Science, and I am passionate about game development
+            and interactive experiences.
         </p>
 
-        <h2>Hobbies & Interests</h2>
+        <h2>What I Hope to Learn in this Course</h2>
         <ul>
-            <li>Hobby #1: VTubing (It's streaming but I used a 2D Model for my streams)</li>
-            <li>Hobby #2: Game Development: I am working on a VTuber Pokemon game called "Pokemon: VTuber Royale"</li>
+            <li>How to create structured and accessible web pages</li>
+            <li>Best practices for HTML and CSS development</li>
+            <li>How to publish and maintain projects using GitHub Pages</li>
         </ul>
 
-        <h2>Education Goals</h2>
-        <p>
-            <span class="highlight">Why I Am Pursuing This Degree:</span><br>
-            because my goal is to allow the generations after me (I'm Gen Z) to experience the same joy I had when playing Video games, and hopefully cure them of "Brain-rot"
-        </p>
+        <h2>My Favorite Hobby / Activity</h2>
+        <ul>
+            <li>
+                VTubing — streaming using a 2D avatar model
+            </li>
+            <li>
+                Game development, including my project
+                <span class="highlight">“Pokémon: VTuber Royale”</span>
+            </li>
+        </ul>
 
         <p>
-            <span class="highlight">Why I Am Taking This Course:</span><br>
-            Describe what you hope to learn from this course and how it fits into your academic or professional plans.
+            Learn more about game development here:
+            <a href="https://www.gamedeveloper.com" target="_blank" rel="noopener noreferrer">
+                Game Developer
+            </a>
         </p>
+
+        <!-- Thumbnail Image Requirement -->
+        <img src="images/me-300-by-300.jpg"
+             alt="Thumbnail image of Nicholas Jones"
+             class="thumbnail-image">
 
         <h2>Fun Fact</h2>
         <p>
-            I can come up with some pretty crazy ideas for things such as stories, characters, and even my own worlds, I always have a hard time putting pen to paper
+            I constantly come up with creative ideas for stories, characters,
+            and entire worlds — my biggest challenge is slowing down long enough
+            to put them on paper.
         </p>
 
         <footer>
-            &copy; 2026 • About Me Page
+            &copy; 2026 • Nicholas Jones
         </footer>
     </div>
 
